@@ -1,0 +1,250 @@
+body {
+	size: A4;
+}
+
+.wrap {
+	width: 1200px;
+	padding: 40px 10px;
+	max-width: 90%;
+	margin: auto;	
+}
+.header-logo {
+	float: right;
+}
+.header-title {
+	font-size: 1.250em;
+	
+}
+.header-title-wrap {
+	display: inline-block;
+	margin-top: 2%;
+	width: 40%;
+}
+.hotel-content {
+	margin-top: 3%;
+}
+.hotel-info {
+	width: 40%;
+	position: relative;
+	display: inline-block;
+}
+
+.hotel-info h3{
+	font-size: 1.500em;
+	color: #3b4045;
+}
+.hotel-info-line span {
+	display: inline-block;
+}
+.hotel-info-line p {
+	display: inline-block;
+	width: 36%;
+	vertical-align: top;
+	margin: 6px 0;
+}
+.hotel-info-line p:last-child {
+	display: inline-block;
+	width: 36%;
+	vertical-align: top;
+	margin-left: 50px;
+}
+.adress p:first-child {
+	width: 10%;
+}
+.adress p:last-child {
+	width: 56%;
+}
+.bron {
+	font-size: 1.250em;
+}
+.paid {
+	position: absolute;
+	bottom: 0;
+	right: 100px;
+}
+.hotel-map {
+	display: inline-block;
+	width: 40%;
+	vertical-align: top;
+	min-width: 350px;
+	max-width: 8cm
+}
+.hotel-map h4 {
+	font-size: 1.188em;
+	text-align: center;
+	margin-bottom: 5px;
+}
+.map {
+	max-width: 500px;
+	width: 100%;
+}
+.hotel-map a {
+	text-decoration: none;
+	font-size: 0.750em;
+	margin-left: 5%;
+}
+.coor {
+	text-decoration: none;
+	font-size: 0.750em;
+	margin-left: 14%;
+}
+.advantages {
+
+}
+.advantages h3 {
+	margin-left: 14%;
+	position: relative;
+}
+.advantages h3:before {
+	content: '';
+	position: absolute;
+	left: -26px;
+	width: 20px;
+	height: 20px;
+	top: 2px;
+	background-image: url(../img/sound.png);
+	background-repeat: no-repeat;
+}
+.advant-part {
+	text-align: left;
+}
+.advantages ul {
+	list-style: none;
+}
+.advantages ul li {
+	border-bottom: 1px solid #ddddde;
+	padding: 10px;
+}
+.advantages ul li:last-child {
+	border-bottom: none;
+}
+.advantages ul li span {
+
+}
+.advant-cat {
+	margin-left: 20px;
+	font-size: 0.875em;
+	width: 30%;
+	display: inline-block;
+	position: relative;
+}
+.advant-part {
+	margin-left: 30px;
+	font-size: 0.875em;
+	text-align: left;
+	display: inline-block;
+}
+li:first-child .advant-cat:before {
+	content: '';
+	position: absolute;
+	left: -26px;
+	width: 20px;
+	height: 20px;
+	top: -3px;
+	background-image: url(../img/hotel-icon.png);
+	background-repeat: no-repeat;
+}
+li:nth-child(2) .advant-cat:before {
+	background-image: url(../img/internet-icon.png);
+	content: '';
+	position: absolute;
+	left: -26px;
+	width: 20px;
+	height: 20px;
+	top: -1px;
+	background-repeat: no-repeat;
+}
+li:nth-child(3) .advant-cat:before {
+	background-image: url(../img/plate-icon.png);
+	content: '';
+	position: absolute;
+	left: -26px;
+	width: 20px;
+	height: 20px;
+	top: -1px;
+	background-repeat: no-repeat;
+}
+li:nth-child(4) .advant-cat:before {
+	background-image: url(../img/glass-icon.png);
+	content: '';
+	position: absolute;
+	left: -26px;
+	width: 20px;
+	height: 20px;
+	top: -2px;
+	background-repeat: no-repeat;
+}
+.booking-details .hotel-info-line {
+	width: 50%;
+	border-bottom: 1px solid #ddddde;
+}
+
+.booking-details .hotel-info-line:last-child {
+	border-bottom: none;
+}
+.booking-details h2 {
+	margin-top: 0;
+}
+.information {
+	margin: auto;
+	margin-top: 60px;
+	width: 90%;
+
+	text-align: left;
+	color: #3c4146;
+}
+.information h3, h4 {
+	color: #3b4045;
+	margin: 0;
+	margin-top: 5px;
+}
+.information h3 {
+	margin-bottom: 30px;
+}
+.information p {
+	margin: 0;
+	margin-bottom: 20px;
+}
+.alert-block {
+	width: 60%;
+	margin: auto;
+	padding: 10px 20px 10px 70px;
+	border: 2px solid #89898a;
+	margin-top: 4%;
+	position: relative;
+	font-weight: bold;
+	font-size: 1.000em;
+	color: #000;
+}
+.alert-block:before {
+	content: '';
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	background-image: url(../img/question-icon.png);
+	left: 15px;
+	top: 30px;
+	background-repeat: no-repeat;
+
+}
+
+footer {
+	margin-top: 50px;
+	padding-bottom: 40px;
+}
+.partners {
+	float: left;
+	width: 45%;
+}
+.partners img {
+	vertical-align: top;
+	max-width: 140px;
+}
+.contacts {
+	float: right;
+	width: 51%;
+	
+}
+.contacts p {
+	margin: 0;
+}
